@@ -1,0 +1,19 @@
+const cc = DataStudioApp.createCommunityConnector();
+
+function getAuthType() {
+  return cc.newAuthTypeResponse()
+           .setAuthType(cc.AuthType.NONE)
+           .build();
+}
+
+function getConfig() {
+
+}
+
+function getSchema() {
+
+}
+
+function getData() {
+
+}
